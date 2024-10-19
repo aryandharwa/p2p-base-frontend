@@ -1,0 +1,56 @@
+/* Container and layout styles */
+.claim-order-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background: linear-gradient(to bottom, #303062, #BE67AB, #FDF6B2);
+  }
+  
+  .claim-order-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .claim-order-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6E0095;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields styling */
+  .claim-order-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #6E0095;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .claim-order-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6E0095;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .claim-order-button:hover {
+    background-color: #845795;
+  }
+  

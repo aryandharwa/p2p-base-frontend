@@ -1,0 +1,57 @@
+/* Styles for Orders component */
+.orders-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #303062, #BE67AB, #FDF6B2);
+    overflow-x: hidden;
+    height: 88vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .orders-container {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .orders-title {
+    font-size: 1.5rem;
+    color: #6E0095;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .orders-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  .orders-header {
+    background-color: #e5e7eb;
+  }
+  
+  .orders-th {
+    padding: 16px;
+    border-bottom: 2px solid #d1d5db;
+  }
+  
+  .orders-row {
+    background-color: #ffffff;
+  }
+  
+  .orders-even {
+    background-color: #f3f4f6;
+  }
+  
+  .orders-td {
+    padding: 16px;
+    border: 1px solid #d1d5db;
+  }
+  
