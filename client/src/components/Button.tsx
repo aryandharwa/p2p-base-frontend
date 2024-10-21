@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   padding: 0 14px;
   border-radius: 4px;
-  background: #8272e4;
+  background: #6E0095;
   border: none;
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@ export const Button = styled.button`
   transition: all 0.2s ease-in-out;
   
   &:hover {
-    background: #9b8df2;
+    background: #824e95;
   }
 
   &:disabled {

@@ -92,7 +92,7 @@ const TableContainer = styled.div`
 const StyledTable = styled.table`
   width: 100%;
   border-collapse: collapse;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 4px;
 `;
 
@@ -105,7 +105,7 @@ const TableHeader = styled.th`
 
 const TableRow = styled.tr<{ selected: boolean }>`
   &:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   ${({ selected }) => selected && `
     border: 2px solid rgba(255, 255, 255, 0.8);
@@ -121,7 +121,7 @@ const TableRow = styled.tr<{ selected: boolean }>`
 
 const TableCell = styled.td`
   padding: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   height: 20px;
 `;
 

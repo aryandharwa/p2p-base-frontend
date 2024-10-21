@@ -224,7 +224,10 @@ export const MainPage: React.FC<{}> = (props) => {
   return (
     <Container>
       {showBrowserWarning && <TopBanner message={"ZK P2P On-Ramp only works on Chrome or Chromium-based browsers."} />}
-      <div className="title">
+
+      
+
+      {/* <div className="title">
         <Header>Fiat to Crypto On-Ramp From Venmo</Header>
         <NumberedInputContainer>
           <span style={{ color: 'rgba(255, 255, 255, 0.7)', lineHeight: '1.3'}}>
@@ -251,7 +254,10 @@ export const MainPage: React.FC<{}> = (props) => {
             Submitting a claim escrows the USDC amount which can be clawed back if the claim is not completed by the on-ramper.
           </NumberedStep>
         </NumberedInputContainer>
-      </div>
+      </div> */}
+
+      <h1>Place Order</h1>
+
       <Main>
         <Column>
           <SubHeader>Orders</SubHeader>
